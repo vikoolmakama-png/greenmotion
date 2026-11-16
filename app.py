@@ -377,6 +377,37 @@ footer a {
   padding:15px 4% !important;
  }
 }
+
+/* COMPACT MOBILE STAT CARDS */
+.stats {
+    gap: 12px !important;
+}
+
+.stats .stat {
+    min-height: 105px !important;
+    padding: 16px 12px !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.stats .stat h2 {
+    font-size: 24px !important;
+    line-height: 1.2 !important;
+    margin: 0 0 10px !important;
+    letter-spacing: 0 !important;
+    white-space: nowrap !important;
+}
+
+.stats .stat p {
+    font-size: 13px !important;
+    line-height: 1.3 !important;
+    margin: 0 !important;
+    white-space: nowrap !important;
+}
+
 </style>
 
 </head>
