@@ -1,0 +1,10 @@
+*.db
+*.sqlite
+*.sqlite3
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+app_backup.py
+*_backup.py
